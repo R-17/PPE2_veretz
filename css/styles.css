@@ -1,0 +1,43 @@
+/*Emplacement*/
+.wrapper {    
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+/*Bordure des logins*/
+.form-signin {
+  max-width: 70%;
+  padding: 5%;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 3px dotted rgba(0,0,0,0.1);  
+  }
+
+/*Le footer complet*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+}
+
+/*Tout la page*/
+#page
+{
+	padding: 0.5%; /* Remplissage a 0.5% */
+    width: 90%;
+    margin: auto; /* Marge automatique */
+}
+
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
